@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <a href="/" class="btn-floating btn-large waves-effect waves-light red add-btn"><i class="material-icons">arrow_back</i></a>
+    <div class="container">
+      <h1>Add new Journal</h1>
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">title</i>
+            <input type="text" name="journal-title" id="journal-title">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea style="height: 200px;" class="materialize-textarea journal-entry" name="journal-entry" id="journal-entry"></textarea>
+          </div>
+        </div>
+      
+       
+        <a id="save-entry" class="right green lighten-1 waves-effect waves-light btn"><i class="material-icons left">save</i>save journal</a>
+      </form>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+    <script src="journal-functions.js"></script>
+    <script src="storage.js"></script>
+    <script src="journal-add.js"></script>
+  </body>
+</html>

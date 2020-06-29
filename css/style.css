@@ -1,0 +1,68 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size:62.5%;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 400;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+
+
+a {
+  font-size: 1.6rem;
+  margin: 0 1rem;
+}
+
+p {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.journal-date {
+  display: inline-block;
+  text-align: left;
+  padding: .6rem;
+}
+
+.add-btn {
+  position: absolute;
+  left: 1rem;
+}
+
+textarea {
+  padding: 2rem;
+}
+
+
+.back-btn {
+  top: 1rem;
+}
+
+.card-link:visited,
+.card-link:link{
+  font-size: 700;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.dateEntry {
+  font-size: 1.3rem;
+  font-style: italic;
+  
+}
